@@ -6,13 +6,13 @@ https://api.github.com/users/cesar2389/repos
 
 Enviroment variables definition used in the text:
 
-varurl = api.github/users/cesar2389
+varurl: api.github/users/cesar2389
 
-apikey = this variable includes my auth token
+apikey: this variable includes my auth token
 
-owner = cesar2389
+owner: cesar2389
 
-repo = Data-Source-API-Analyst-Test
+repo: Data-Source-API-Analyst-Test
 
 Endpoints used in Postman to test the API:
 
