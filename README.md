@@ -1,6 +1,6 @@
 The .json file (Github API Test - César Rivera Franco.postman_collection.json) located in the folder "Postman_Collection" includes two different folders as requested by assignment "Auth" and "Request".
 
-Folder "Content" contains a file named "API documentation" that includes information about the endpoints used in the test
+Folder "Content" contains a file named "API documentation" that includes information about the endpoints used in the test.
  
 Postman test information:
 
@@ -20,4 +20,5 @@ Rate limit: Fetching ratelimit to Github API which shows different resources rel
 
 Most of the errors I encountered occurred when I setting enviroments variables and adding them to the endpoints requests, the most common error I got was "404 not found" due to incorrect endpoint sintax including enviroment variables.
 
+REFLECTION
 This assignment was very interesting and help me learn API Testing concepts and troubleshooting using Postman.
