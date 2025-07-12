@@ -22,4 +22,4 @@ Most of the errors I encountered occurred when I setting enviroments variables a
 
 REFLECTION:
 
-This assignment was very interesting and help me learn API Testing concepts and troubleshooting using Postman.
+This assignment was very interesting and help me to learn API Testing concepts and troubleshooting using Postman.
