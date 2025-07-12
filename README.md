@@ -1,4 +1,4 @@
-The Postman workpace (Github API Test - César Rivera Franco.postman_collection) includes two different folders requested by assignment.
+The Postman workpace (Github API Test - César Rivera Franco.postman_collection.json) located in the folder Content includes two different folders requested by assignment.
 
 Auth - Includes a GET endpoint where I test the connection to my personal GITHUB account.
 
