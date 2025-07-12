@@ -1,4 +1,4 @@
-The .json file (Github API Test - César Rivera Franco.postman_collection.json) located in the folder "Content" includes two different folders requested by assignment.
+The .json file (Github API Test - César Rivera Franco.postman_collection.json) located in the folder "Postman_Collection" includes two different folders requested by assignment.
 
 Auth - Includes a GET endpoint where I test the connection to my personal GITHUB account.
 
