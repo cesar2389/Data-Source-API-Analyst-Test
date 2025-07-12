@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "822aedf0-30e9-4f6a-ba80-68ee3f1a53e1",
+		"name": "Github API Test - César Rivera Franco",
+		"description": "This is my a workspace where I test GITHUB API REST using Postman\n\nThe workpace includes two different folders requested by assignment.\n\nAuth - Includes a GET endpoint where I test the connection to my personal GITHUB account.\n\nRequest: This folder includes five different GET requests to test my personal repository on Github including:\n\n- Getrepos: Testing connection to my personal Github account.\n    \n- Get-Data-Source-API-Analyst-Test: Testing connection repository named Data-Source-API-Analyst requested in the assignment.\n    \n- TrackIssues: Track issues in the connection to Github API Rest, currently with no issues.\n    \n- Pagination: I tested paginatation endpoint, due to the fact my repository does not includes many information paginitation is not visible.\n    \n- Rate limit: Fetching ratelimit to Github API which shows different resources related to limit information such as \"limit\" that displays quantity of request allowed by the API.\n    \n\nMost of the errors I encountered occurred when I was setting enviroments variables and adding them to the endpoints requests, the most common error I got was \"404 not found\" due to incorrect endpoint sintax including enviroment variables.\n\nThis assignment was very interesting and help me to learn API Testing concepts and troubleshooting using Postman.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46628399",
+		"_collection_link": "https://cesar-7545691.postman.co/workspace/test~0181cd0d-fa9c-4434-a790-3541601e341d/collection/46628399-822aedf0-30e9-4f6a-ba80-68ee3f1a53e1?action=share&source=collection_link&creator=46628399"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Authorization",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Request",
+			"item": [
+				{
+					"name": "Getrepos",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{apikey}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "varurl",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{varurl}}/repos",
+							"protocol": "https",
+							"host": [
+								"{{varurl}}"
+							],
+							"path": [
+								"repos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get-Data-Source-API-Analyst-Test",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TrackIssues",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Pagination",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.github.com/repos/cesar2389/Data-Source-API-Analyst-Test/issues?page=1&per_page=5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"repos",
+								"cesar2389",
+								"Data-Source-API-Analyst-Test",
+								"issues"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rate limit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.github.com/rate_limit",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"rate_limit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
