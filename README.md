@@ -6,7 +6,7 @@ Postman test information:
 
 Auth: Includes a GET endpoint where I test the connection to my personal GITHUB account.
 
-Request: This folder includes five different GET requests to test my personal repository on Github including:
+Request: This folder includes five different GET requests to test my personal repository on Github
 
 Getrepos: Testing connection to my personal Github account.
 
